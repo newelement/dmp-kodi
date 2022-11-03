@@ -1,1 +1,1 @@
-# Acme Cogs for DMP
+# Kodi PLugin for Digital Movie Poster (DMP)
