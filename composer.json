@@ -1,0 +1,33 @@
+{
+    "name": "newelement/dmp-kodi",
+    "description": "Kodi plugin for DMP",
+    "license": "GPL-2.0-or-later",
+    "homepage": "http://github.com/newelement/dmp-kodi",
+    "authors": [
+        {
+            "name": "Don Jones",
+            "email": "newelementdesigns@me.com"
+        }
+    ],
+    "require": {
+        "newelement/digital-movie-poster": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Newelement\\DmpKodi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Newelement\\DmpKodi\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Newelement\\DmpKodi\\DmpKodiServiceProvider"
+            ]
+        }
+    }
+}
