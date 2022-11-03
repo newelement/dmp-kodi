@@ -1,1 +1,1 @@
-# Kodi PLugin for Digital Movie Poster (DMP)
+# Kodi Plugin for Digital Movie Poster (DMP)
