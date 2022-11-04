@@ -68,6 +68,7 @@ class DmpKodiServiceProvider extends ServiceProvider
             'plugin_key' => $this->pluginName,
             'name' => 'Kodi Media Sync and Now Playing',
             'description' => 'Syncs movie posters and shows now playing.',
+            'repo' => 'newelement/dmp-kodi',
             'assets' => [
                 'scripts' => ['now_playing' => 'nowplaying.js'], // 'plugin' => 'plugin.js'
                 'styles' => 'plugin.css'
